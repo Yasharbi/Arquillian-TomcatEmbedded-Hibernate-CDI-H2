@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<Context antiJARLocking="true"  path="/MyApp">
+<Resource
+name="jdbc/MyApp" 
+auth="Container" 
+type="javax.sql.DataSource" 
+
+
+username="sa" 
+password="" 
+driverClassName="org.h2.Driver" 
+url="jdbc:h2:~/test;AUTO_SERVER=TRUE"
+
+
+maxActive="8" 
+maxIdle="4" 
+maxWait="10000"/>
+ 
+</Context>
